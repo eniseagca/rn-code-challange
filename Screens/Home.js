@@ -13,7 +13,6 @@ const Home = (props) => {
     }
 
     useEffect(() => {
-        // ekran ilk açıldığında çalışır
         istekGonder()
     }, [])
 
